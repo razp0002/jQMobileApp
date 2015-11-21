@@ -17,12 +17,19 @@ body {
 .wrapper {
     color: #fff;
 }
+img {
+    max-width: 100%;
+}
 .masthead {
     background: #8089ff;
     text-align: center;
     font-size: 1.55rem;
     padding: 1rem;
     color: #000;
+    margin-bottom: .4rem;
+}
+.home .masthead {
+    font-size: 1.3rem;
 }
 .start, .about {
     border: auto;
